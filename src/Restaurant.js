@@ -11,7 +11,7 @@ export default function Restaurant(props) {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://fast-oasis-56610.herokuapp.com/api/restaurants/${id}`)
+    fetch(`https://fast-oasis-56610.herokuapp.com/api/restaurants/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setLoading(false);

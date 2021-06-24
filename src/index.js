@@ -6,7 +6,7 @@
 * 
 *  Name: _Lingxiang Fan________ Student ID: _134026194________ Date: _Jun 20, 2021_
 *
-*  Online Link to Restaurant App: _________________________________________________________
+*  Online Link to Restaurant App: _https://assignment-3-phi.vercel.app/Restaurants_
 *
 ***********************************************************************************/ 
 

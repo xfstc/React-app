@@ -13,8 +13,8 @@ export default function Restaurants() {
 
   useEffect(() => {
     let url = query
-      ? `http://fast-oasis-56610.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}&borough=${query}`
-      : `http://fast-oasis-56610.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}`;
+      ? `https://fast-oasis-56610.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}&borough=${query}`
+      : `https://fast-oasis-56610.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}`;
 
     fetch(url)
       .then((response) => response.json())
